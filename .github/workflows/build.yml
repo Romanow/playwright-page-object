@@ -21,3 +21,9 @@ jobs:
 
       - name: Build project
         run: ./gradlew clean build
+
+      - name: Publish artefacts
+        run: ./gradlew publish
+        env:
+          GITHUB_USER: ${{ secrets.GITHUB_USER }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
