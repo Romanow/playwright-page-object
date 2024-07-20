@@ -25,6 +25,7 @@ jobs:
         run: ./gradlew clean build
 
       - name: Publish artefacts
+        if: ${{ startsWith(github.ref, 'refs/tags/v') }}
         run: ./gradlew publish
         env:
           GITHUB_USER: ${{ secrets.GITHUB_USER }}
