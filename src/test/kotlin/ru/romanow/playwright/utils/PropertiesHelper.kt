@@ -45,7 +45,9 @@ class PropertiesHelper private constructor() {
                 Boolean::class -> value.toBoolean() as T?
                 Int::class -> value?.toInt() as T?
                 Double::class -> value?.toDouble() as T?
-                else -> throw ClassCastException("PropertyHolder supports only String, Integer, Double and Boolean types")
+                else -> throw ClassCastException(
+                    "PropertyHolder supports only String, Integer, Double and Boolean types"
+                )
             }
         }
 
