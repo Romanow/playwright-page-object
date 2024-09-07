@@ -61,8 +61,7 @@ internal class PropertiesHelperTest {
 
     @Test
     fun test() {
-        assertThat(PropertiesHelper.get("base-url", String::class)).isEqualTo("http://localhost:8080")
-        assertThat(PropertiesHelper.get("headless-mode", Boolean::class)).isFalse
-        assertThat(PropertiesHelper.get("slow-mode", Boolean::class)).isTrue
+        assertThat(PropertiesHelper.get("test.base-url", String::class)).isEqualTo("http://localhost:8080")
+        assertThat(PropertiesHelper.get("test.stop-on-error", Boolean::class)).isTrue
     }
 }
