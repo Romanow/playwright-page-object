@@ -21,6 +21,9 @@ jobs:
 
       - uses: docker/setup-buildx-action@v3
 
+      - uses: Install playwright
+        run: npx playwright install-deps
+
       - name: Build and Run Test Page
         run: |
           docker compose build
