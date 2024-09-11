@@ -1,7 +1,26 @@
 # Page Object pattern for Playwright framework
 
 [![Build project](https://github.com/Romanow/playwright-page-object/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/Romanow/playwright-page-object/actions/workflows/build.yml)
+[![codecov](https://codecov.io/github/Romanow/playwright-page-object/branch/master/graph/badge.svg?token=SgP8MUuz9E)](https://codecov.io/github/Romanow/playwright-page-object)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+
+## Подключение
+
+### Maven
+
+```xml
+<dependency>
+  <groupId>ru.romanow.playwright</groupId>
+  <artifactId>playwright-page-object</artifactId>
+  <version>${playwright-page-object.version}</version>
+</dependency>
+```
+
+### Gradle
+
+```groovy
+testImplementation "ru.romanow.playwright:playwright-page-object:$playwrightPageObjectVersion"
+```
 
 ## Шаблон проектирования _Page Object_
 

@@ -3,15 +3,15 @@ plugins {
     id "jacoco"
     id "maven-publish"
     id "org.jetbrains.kotlin.jvm" version "1.9.22"
-    id "org.jlleitschuh.gradle.ktlint" version "12.1.0"
+    id "org.jlleitschuh.gradle.ktlint" version "12.1.1"
 }
 
 ext {
     kotlinVersion = "1.9.22"
     playwrightVersion = "1.44.0"
-    junitVersion = "5.10.2"
-    assertjVersion = "3.26.0"
-    slf4jVersion = "2.0.13"
+    junitVersion = "5.11.0"
+    assertjVersion = "3.26.3"
+    slf4jVersion = "2.0.16"
     logbackVersion = "1.5.6"
 }
 
