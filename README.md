@@ -1,10 +1,3 @@
----
-title: Documentation
-layout: page
-permalink: /
-hide_header: true
----
-
 # Page Object pattern for Playwright framework
 
 [![Build project](https://github.com/Romanow/playwright-page-object/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/Romanow/playwright-page-object/actions/workflows/build.yml)
