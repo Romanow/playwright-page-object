@@ -1,5 +1,5 @@
-title: Page Object pattern for Playwright framework
-description: Java implementation of Page Object pattern for Playwright
+title: Page Object для Playwright
+description: Реализация паттерна Page Object для Playwright
 author:
   name: Romanow
   email: romanowalex@mail.ru
@@ -13,6 +13,6 @@ exclude:
 minima:
   skin: classic
   social_links:
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/it-enduro" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/company/it-enduro" }
     - { platform: telegram, user_url: "https://t.me/romanowalex" }
     - { platform: youtube, user_url: "https://www.youtube.com/@it_enduro" }
