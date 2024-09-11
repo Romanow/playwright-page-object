@@ -7,7 +7,7 @@ plugins {
 }
 
 ext {
-    kotlinVersion = "1.9.22"
+    kotlinVersion = "2.0.20"
     playwrightVersion = "1.44.0"
     junitVersion = "5.10.2"
     assertjVersion = "3.26.0"
