@@ -5,7 +5,12 @@ author:
   email: romanowalex@mail.ru
 
 show_downloads: false
-theme: minima
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-feed
+
+header_pages:
+  - pages/header.md
 
 minima:
   skin: classic
