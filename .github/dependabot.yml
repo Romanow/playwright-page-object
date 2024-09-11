@@ -7,4 +7,6 @@ updates:
       interval: "weekly"
     ignore:
       - dependency-name: "kotlin"
-        versions: [ "2.x", "5.x" ]
+        versions: [ "2.x" ]
+    commit-message:
+      prefix: "[deps]"
