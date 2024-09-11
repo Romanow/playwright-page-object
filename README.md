@@ -1,8 +1,8 @@
-# Page Object pattern for Playwright framework
-
 [![Build project](https://github.com/Romanow/playwright-page-object/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/Romanow/playwright-page-object/actions/workflows/build.yml)
 [![codecov](https://codecov.io/github/Romanow/playwright-page-object/branch/master/graph/badge.svg?token=SgP8MUuz9E)](https://codecov.io/github/Romanow/playwright-page-object)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+
+# Page Object pattern for Playwright framework
 
 ## Подключение
 
