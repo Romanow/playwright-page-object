@@ -1,0 +1,12 @@
+services:
+  test-page:
+    build: test-page
+    image: "romanowalex/test-page:latest"
+    container_name: test-page
+    ports:
+      - "8080:80"
+    healthcheck:
+      test: "curl --fail http://localhost || exit 1"
+      interval: 5s
+      timeout: 3s
+      retries: 5

@@ -8,13 +8,14 @@ import ru.romanow.playwright.annotations.FindBy
 import ru.romanow.playwright.annotations.Parent
 import java.lang.reflect.Field
 import kotlin.reflect.KClass
+import kotlin.reflect.jvm.javaType
 
 class ComponentFactory private constructor() {
 
     companion object {
         fun <T : BaseComponent> create(page: Page, cls: KClass<T>): T {
             val constructor =
-                cls.constructors.first { it.parameters.size == 1 && it.parameters[0].type == Page::class }
+                cls.constructors.first { it.parameters.size == 1 && it.parameters[0].type.javaType == Page::class.java }
             val element = constructor.call(page)
 
             fillLocators(page, cls, element)
