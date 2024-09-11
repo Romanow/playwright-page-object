@@ -11,7 +11,7 @@ ext {
     playwrightVersion = "1.44.0"
     junitVersion = "5.10.2"
     assertjVersion = "3.26.0"
-    slf4jVersion = "2.0.13"
+    slf4jVersion = "2.0.16"
     logbackVersion = "1.5.6"
 }
 
