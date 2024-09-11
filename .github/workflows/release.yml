@@ -1,9 +1,7 @@
 ---
-name: Build project
+name: Publish
 on:
   push:
-    branches:
-      - master
     tags:
       - "v*.*.*"
 jobs:
