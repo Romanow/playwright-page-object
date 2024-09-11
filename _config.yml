@@ -6,11 +6,8 @@ author:
 
 show_downloads: false
 remote_theme: jekyll/minima
-plugins:
-  - jekyll-feed
-
-header_pages:
-  - pages/header.md
+exclude:
+  - report/*
 
 minima:
   skin: classic
