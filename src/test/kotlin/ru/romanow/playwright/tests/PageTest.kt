@@ -15,8 +15,15 @@ internal class PageTest {
         page.navigate("/")
         val mainPage = ComponentFactory.create(page, MainPage::class)
 
-        mainPage.assertFindByTestId("Тестовая страница")
-        mainPage.assertFindByCss()
-        mainPage.assertFindByXpath()
+        mainPage.assertPageHeaderText("Тестовая страница")
+        mainPage.assertFeatures()
+
+        val licenseDialog = mainPage.openLicenseDialog()
+        licenseDialog.assertLicenseOwner("Romanov")
+        licenseDialog.close()
+
+        val functionsDialog = mainPage.openFunctionsDialog()
+        functionsDialog.assertFunctionsTabs()
+        functionsDialog.close()
     }
 }
