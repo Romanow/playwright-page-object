@@ -1,6 +1,8 @@
-[![Build project](https://github.com/Romanow/playwright-page-object/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/Romanow/playwright-page-object/actions/workflows/build.yml)
-[![codecov](https://codecov.io/github/Romanow/playwright-page-object/branch/master/graph/badge.svg?token=SgP8MUuz9E)](https://codecov.io/github/Romanow/playwright-page-object)
+[![CI](https://github.com/Romanow/playwright-page-object/actions/workflows/build.yml/badge.svg)](https://github.com/Romanow/playwright-page-object/actions/workflows/build.yml)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+[![Release](https://img.shields.io/github/v/release/Romanow/playwright-page-object?logo=github&sort=semver)](https://github.com/Romanow/playwright-page-object/releases/latest)
+[![Codecov](https://codecov.io/gh/Romanow/playwright-page-object/branch/master/graph/badge.svg?token=Cckw6pHLh7)](https://codecov.io/gh/Romanow/playwright-page-object)
+[![License](https://img.shields.io/github/license/Romanow/playwright-page-object)](https://github.com/Romanow/playwright-page-object/blob/master/LICENSE)
 
 # Реализация паттерна Page Object для Playwright
 
@@ -10,7 +12,7 @@
 
 ```xml
 <dependency>
-  <groupId>ru.romanow.playwright</groupId>
+  <groupId>ru.romanow-alex</groupId>
   <artifactId>playwright-page-object</artifactId>
   <version>${playwright-page-object.version}</version>
 </dependency>
@@ -19,7 +21,7 @@
 ### Gradle
 
 ```groovy
-testImplementation "ru.romanow.playwright:playwright-page-object:$playwrightPageObjectVersion"
+testImplementation "ru.romanow-alex:playwright-page-object:$playwrightPageObjectVersion"
 ```
 
 ## Шаблон проектирования _Page Object_
